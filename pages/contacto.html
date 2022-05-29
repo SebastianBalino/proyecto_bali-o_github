@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Koulen&family=Lobster&family=Oleo+Script&family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="icon" href="../img/redondo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="https://use.fontawesome.com/e3930d76f3.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="container-grid">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../img/redondo.png" alt="logo">
+                </a>
+            </div>
+            <nav class="menu">
+                <input type="checkbox" id="menu-mobile">
+                <i class="fa fa-bars icon-open" aria-hidden="true"></i>
+                <i class="fa fa-times icon-close" aria-hidden="true"></i>
+                <ul>
+                    <li class="menu-link"><a href="../index.html">Inicio</a></li>
+                    <li class="menu-link"><a href="../pages/menu.html">Menu</a></li>
+                    <li class="menu-link"><a href="../pages/promos.html">Promos</a></li>
+                    <li class="menu-link"><a href="../pages/ubicacion.html">Ubicacion</a></li>
+                    <li class="menu-link"><a href="../pages/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>          
+    </header>
+    <main>
+        <section class="section_form">
+            <div class="titulo_form">
+                <h1>Realiza tu pedido</h1>
+            </div>
+            <br>
+            <div class="formulario">
+                <form class action="../index.html" method="get" enctype="text/plain">
+                    <br>
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" required placeholder="Ingrese su nombre">  
+                    </div>
+                    <br>
+                    <div>
+                        <label for="apellido">Apellido</label>
+                        <input type="text" id="apeliido" required placeholder="Ingrese su apellido"> 
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email">Emaiil</label>
+                        <input type="email" id="email" required placeholder="Ingrese su email">
+                    </div>
+                    <br>
+                    <div>
+                        <textarea name="Comentarios" id="Comentarios" cols="30" rows="5" placeholder="Haz tu pedido aqui"></textarea>
+                    </div>
+                    <br>
+                    <div>
+                        <label for="acepto"> Mayor de 18 años</label>
+                        <input type="checkbox" id="acepto">
+                    </div> 
+                    <br>
+                    <div>
+                        <label for="">Te gustaria recibir las ultimas novedades</label>
+                        <input type="radio" name="Curso" value="1"> Si
+                        <input type= "radio" name="Curso" value="2"> No
+                    </div>
+                    <br>
+                    <div>
+                        <input class="boton1" type="reset" value="Borrar todo"> 
+                        <input class="boton2" type="submit" value="Pedir ahora">   
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main> 
+    <footer>
+        <div class="container-grid">
+            <div class="titulo">
+                <h6>Derechos Reservados 2022</h6>
+            </div>        
+            <nav class="rrss">
+            <ul>
+                <li class="menu-link"><a href="https://www.facebook.com" target="_blank"><img src="../img/logoFacebook.png" alt="facebook"></a></li>
+                <li class="menu-link"><a href="https://www.instagram.com" target="_blank"><img src="../img/logoInsta.png" alt="instagram"></a></li>
+            </ul>   
+            </nav>
+        </div>
+    </footer>
+    
+</body>
+</html>
